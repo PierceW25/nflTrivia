@@ -1,0 +1,112 @@
+html {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+#overlay {
+    display: inline-flex;
+    /*max-width: 1000px;*/
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 350px;
+    height: 275px;
+}
+
+.score {
+    text-align: center;
+}
+
+#score p {
+    font-size: 15px;
+}
+
+.title-card {
+    background-color: black;
+    height: 4rem;
+    padding: 10px;
+}
+
+.title-card h1 {
+    vertical-align: middle;
+}
+
+.accent {
+    margin-top: 5rem;
+    max-width: 40vh;
+}
+
+.left-images img {
+    width: 100%;
+    height: 300px;
+}
+
+.right-images img {
+    width: 100%;
+    height: 300px;
+}
+
+.second-pic img {
+    width: 400px;
+    height: 300px;
+    padding-top: 400px;
+}
+
+#overlay h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#hikeBtn {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;;
+}
+
+@media only screen and (max-resolution: 150dpi) and (max-width: 1250px) {
+    .accent img {
+      max-width: 300px;
+    }
+  }
+
+  @media only screen and (max-resolution: 150dpi) and (max-width: 1025px) {
+    .accent img {
+      max-width: 145px;
+      max-height: 110px;
+    }
+
+    #survey img {
+        max-width: 160px; 
+        max-height: 120px;
+    }
+  }
+
+  @media only screen and (max-resolution: 150dpi) and (max-width: 768px) {
+    .accent img {
+      max-width: 100px;
+      height: 80px;
+    }
+
+    #survey img {
+        max-width: 100px;
+        height: 80px;
+    }
+  }
+
+  @media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+    .accent img {
+      display: none;
+    }
+  }
