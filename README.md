@@ -6,5 +6,10 @@
 - HTML
 - CSS
 - JS
+### To View Page
+- Look to environments section of repository
+- Click on github-pages
+- Click on View Deployment button
+- The completed project will open in a new tab
 
 
